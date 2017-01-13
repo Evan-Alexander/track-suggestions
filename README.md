@@ -1,5 +1,11 @@
-# track suggestion
-Set up a questionnaire for prospective students to help them choose a language to learn
+# Track Suggestions
+
+Set up a questionnaire for prospective students to help them choose a language to learn.
+Current version as of: 1/13/2016
+
+## Made by:
+
+**Jason Brown**
 
 ## Setup/Installation Requirements
 
@@ -18,6 +24,7 @@ Set up a questionnaire for prospective students to help them choose a language t
 
 * Other than HTML and CSS -
 Bootstrap and Jquery files are included for additional styling and functionality.
+
 
 ### License
 
