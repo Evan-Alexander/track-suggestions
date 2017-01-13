@@ -24,9 +24,6 @@ button {
 /*****************
 LAYOUT
 *****************/
-/*#show {
-  display: none;
-}*/
 
 body {
   margin-top: 5%;
@@ -72,6 +69,10 @@ img {
   display: block;
   margin: 0 auto;
 }
+
+#show {
+  display: none;
+}
 /*****************
 COLOR
 *****************/
@@ -90,5 +91,4 @@ button {
   background-color: #a72736;
   color: white;
   box-shadow: 2px 2px 5px #000;
-
 }

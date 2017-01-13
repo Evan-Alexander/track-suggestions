@@ -21,29 +21,32 @@
       <div class="well">
         <div class="row">
           <div class="col-md-6">
-            <div class="form-group">
-              <div id="blank">
-                <form>
+            <div id="blank">
+              <form>
+                <div class="form-group">
                   <label for="name">What's your name?</label>
                   <input id="name" class="form-control" type="text">
-                </form>
-              </div>
-              <form class="questions">
-                <label for="size">What size company do you want to work for?</label>
-                <select id="size">
-                  <option value="small">Small - I want to work at a start up.  I have big ideas!</option>
-                  <option value="medium">Medium - I prefer not too small / not too big.  </option>
-                  <option value="large">Corporate - I want job security, a 401K, and I have kids to put through school!</option>
-                  <option value="no-care">Meh, I really don't care, as long as I don't hate my job.</option>
-                </select>
-                <label for="demand">Do you want to learn a language that is in high demand?</label>
-                <select id="demand">
-                  <option value="high">Yes! I want options!</option>
-                  <option value="no-matter">I just want to learn a language that I'll enjoy.</option>
-                </select>
+                </div>
               </form>
-                <button type="submit" name="button">Submit!</button>
             </div>
+            <form class="company-size">
+              <label for="size">What size company do you want to work for?</label>
+              <select id="size">
+                <option value="small">Small - I want to work at a start up.  I have big ideas!</option>
+                <option value="medium">Medium - I prefer not too small / not too big.  </option>
+                <option value="large">Corporate - I want job security, a 401K, and I have kids to put through school!</option>
+                <option value="no-care">Meh, I really don't care, as long as I don't hate my job.</option>
+              </select>
+            </form>
+            <form class="" action="index.html" method="post">
+
+              <label for="demand">Do you want to learn a language that is in high demand?</label>
+              <select id="demand">
+                <option value="high">Yes! I want options!</option>
+                <option value="no-matter">I just want to learn a language that I'll enjoy.</option>
+              </select>
+              <button type="submit" name="button">Submit!</button>
+            </form>
           </div>
           <div class="col-md-6">
             <div class="form-group">
@@ -70,7 +73,7 @@
                   <div class="radio">
                     <label>
                       <input type="radio" name="build" value="software">
-                      Software for our business from the ground up!
+                      Software for your business from the ground up!
                     </label>
                   </div>
                 </div>
@@ -79,14 +82,12 @@
           </div>
         </div>
       </div>
-
       <div id="show" class="well">
-        <h4><span id="addressed"></span> based on the answers you chose, we think you'd best be suited to learn <span id="lang"></span>.  We hope this helped.  Best of luck to you!</h4>
+        <h4><span class="addressed"></span> based on the answers you chose, we think you'd best be suited to learn <span class="lang"></span>.  We hope this helped.  Best of luck to you!</h4>
         <img id="php" src="img/php.png" alt="picture of php logo">
         <img id="ruby" src="img/ruby.jpg" alt="picture of ruby logo">
         <img id="java" src="img/java.png" alt="picture of java logo">
       </div>
     </div>
-
   </body>
 </html>
