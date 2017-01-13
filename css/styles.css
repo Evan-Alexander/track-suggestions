@@ -1,0 +1,15 @@
+/*#show {
+  display: none;
+}*/
+
+img {
+  width: 500px;
+}
+
+.btn,
+#size,
+#demand,
+#simple,
+#what {
+  display: block;
+}

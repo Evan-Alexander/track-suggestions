@@ -15,8 +15,8 @@
           <h4 class="panel-title">What programming language should you learn?</h4>
         </div>
         <div class="panel-body">
-          <h4>Good question!  Some languages offer better solutions in certain situations.</h4>
-          <h4>It really depends on what you want out of a career / your next job.</h4>
+          <h4>Good question!</h4>
+          <h4>It depends on a number of things.  Most importantly, it's about choosing one and getting started!</h4>
           <h4>Answer the questions below so we can offer you a little advice.</h4>
         </div>
       </div>
@@ -39,23 +39,28 @@
               <option value="high">Yes! I want options!</option>
               <option value="no-matter">I just want to learn a language that I'll enjoy.</option>
             </select>
-            <label for=""></label>
-            <div class="radio">
+            <label for="simple">Do you want to learn a language that is in high demand?</label>
+            <select id="simple">
+              <option value="easy">Easy - I'm terrified of math.</option>
+              <option value="whatever">I don't care.  Bring it on!</option>
+            </select>
+            <label for="what">What would you like to build with your language?</label>
+            <div id="what"class="radio">
               <label>
-                <input type="radio" name="flavor" value="chocolate" checked>
-                Chocolate
+                <input type="radio" name="build" value="web-apps" checked>
+                Web Apps
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="flavor" value="vanilla">
-                Vanilla
+                <input type="radio" name="build" value="android-apps">
+                Andriod Apps
               </label>
             </div>
             <div class="radio">
               <label>
-                <input type="radio" name="flavor" value="cookiesandcream">
-                Cookies & Cream
+                <input type="radio" name="build" value="software">
+                Software for our business from the ground up!
               </label>
             </div>
           </form>
