@@ -1,4 +1,27 @@
 /*****************
+FONTS
+*****************/
+body {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+#heading h3 {
+  /*line-height: 2em;*/
+}
+
+label {
+  font-size: 1.25em;
+}
+
+select {
+  font-family: sans-serif;;
+}
+
+button {
+  font-size: 1.25em;
+}
+
+/*****************
 LAYOUT
 *****************/
 /*#show {
@@ -11,12 +34,6 @@ body {
 
 .container {
   width: 80%;
-}
-
-img {
-  width: 500px;
-  display: block;
-  margin: 0 auto;
 }
 
 .btn,
@@ -40,6 +57,21 @@ img {
 #size {
   width: 40%;
 }
+
+button {
+  align
+}
+
+#show,
+#heading {
+  text-align: center;
+}
+
+img {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+}
 /*****************
 COLOR
 *****************/
@@ -49,6 +81,14 @@ body {
 }
 
 .well,
-.panel {
+.panel,
+button {
   box-shadow: 2px 2px 10px #17645b;
+}
+
+button {
+  background-color: #a72736;
+  color: white;
+  box-shadow: 2px 2px 5px #000;
+
 }
