@@ -24,7 +24,9 @@ button {
 /*****************
 LAYOUT
 *****************/
-#show {
+#php,
+#ruby,
+#java {
   display: none;
 }
 

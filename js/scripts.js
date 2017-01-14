@@ -8,6 +8,17 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+});
 
+$(document).ready(function() {
+  $("#company-size form").submit(function(event) {
+    var ComapanySize = $("select#size").val();
+    if (ComapanySize === large) {
+      $('#php #java' ).show();
+    }
 
+    $(".lang").text(langInput);
+
+    event.preventDefault();
+  });
 });

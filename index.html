@@ -26,11 +26,10 @@
                 <div class="form-group">
                   <label for="name">What's your name?</label>
                   <input id="name" class="form-control" type="text">
-                  <button type="submit" name="button">Submit!</button>
                 </div>
               </form>
             </div>
-            <div class="company-size">
+            <form id="company-size">
               <label for="size">What size company do you want to work for?</label>
               <select id="size">
                 <option value="small">Small - I want to work at a start up.  I have big ideas!</option>
@@ -38,7 +37,7 @@
                 <option value="large">Corporate - I want job security, a 401K, and I have kids to put through school!</option>
                 <option value="no-care">Meh, I really don't care, as long as I don't hate my job.</option>
               </select>
-            </div>
+            </form>
             <div class="demand">
               <label for="demand">Do you want to learn a language that is in high demand?</label>
               <select id="demand">
@@ -78,18 +77,19 @@
               </div>
             </div>
         </div>
+        <button type="submit" name="button">Submit!</button>
       </div>
-      <div id="php">
+      <div id="php" class="well">
         <h1>PHP</h1>
         <h4><span class="name"></span> based on the answers you chose, we think you'd best be suited to learn <span class="lang"></span>.  We hope this helped.  Best of luck to you!</h4>
         <img id="php-logo" src="img/php.png" alt="picture of php logo">
       </div>
-      <div id="ruby">
+      <div id="ruby" class="well">
         <h1>Ruby</h1>
         <h4><span class="name"></span> based on the answers you chose, we think you'd best be suited to learn <span class="lang"></span>.  We hope this helped.  Best of luck to you!</h4>
         <img id="ruby-logo" src="img/ruby.jpg" alt="picture of ruby logo">
       </div>
-      <div id="java">
+      <div id="java" class="well">
         <h1>Java</h1>
         <h4><span class="name"></span> based on the answers you chose, we think you'd best be suited to learn <span class="lang"></span>.  We hope this helped.  Best of luck to you!</h4>
         <img id="java" src="img/java.png" alt="picture of java logo">
