@@ -38,62 +38,64 @@
                 <option value="no-care">Meh, I really don't care, as long as I don't hate my job.</option>
               </select>
             </form>
-            <div class="demand">
+            <form id="in-demand">
               <label for="demand">Do you want to learn a language that is in high demand?</label>
               <select id="demand">
                 <option value="high">Yes! I want options!</option>
                 <option value="no-matter">I just want to learn a language that I'll enjoy.</option>
               </select>
-            </div>
+            </form>
           </div>
           <div class="col-md-6">
-              <div class="form-group">
+            <div class="form-group">
+              <form>
                 <label for="simple">Do you want a language that is easy to learn?</label>
                 <select id="simple">
                   <option value="easy">Easy - I'm terrified of math.</option>
                   <option value="whatever">I don't care.  Bring it on!</option>
                 </select>
+              </form>
+            </div>
+            <div id="what">
+              <label for="radio">What would you like to build with your language?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="build" value="web-apps" checked>
+                  Web Apps
+                </label>
               </div>
-              <div id="what">
-                <label for="radio">What would you like to build with your language?</label>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="build" value="web-apps" checked>
-                    Web Apps
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="build" value="android-apps">
-                    Andriod Apps
-                  </label>
-                </div>
-                <div class="radio">
-                  <label>
-                    <input type="radio" name="build" value="software">
-                    Software for your business from the ground up!
-                  </label>
-                </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="build" value="android-apps">
+                  Andriod Apps
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="build" value="software">
+                  Software for your business from the ground up!
+                </label>
               </div>
             </div>
+          </div>
         </div>
         <button type="submit" name="button">Submit!</button>
       </div>
-      <div id="php" class="well">
-        <h1>PHP</h1>
+      <div id="show" class="well">
         <h4><span class="name"></span> based on the answers you chose, we think you'd best be suited to learn <span class="lang"></span>.  We hope this helped.  Best of luck to you!</h4>
-        <img id="php-logo" src="img/php.png" alt="picture of php logo">
-      </div>
-      <div id="ruby" class="well">
-        <h1>Ruby</h1>
-        <h4><span class="name"></span> based on the answers you chose, we think you'd best be suited to learn <span class="lang"></span>.  We hope this helped.  Best of luck to you!</h4>
-        <img id="ruby-logo" src="img/ruby.jpg" alt="picture of ruby logo">
-      </div>
-      <div id="java" class="well">
-        <h1>Java</h1>
-        <h4><span class="name"></span> based on the answers you chose, we think you'd best be suited to learn <span class="lang"></span>.  We hope this helped.  Best of luck to you!</h4>
-        <img id="java" src="img/java.png" alt="picture of java logo">
-      </div>
+        <div id="php">
+          <br>
+          <h1>PHP</h1>
+          <img id="php-logo" src="img/php.png" alt="picture of php logo">
+        </div>
+        <div id="ruby">
+          <h1>Ruby</h1>
+          <img id="ruby-logo" src="img/ruby.jpg" alt="picture of ruby logo">
+        </div>
+        <div id="java">
+          <h1>Java</h1>
+          <img id="java" src="img/java.png" alt="picture of java logo">
+        </div>
       </div>
     </div>
   </body>
