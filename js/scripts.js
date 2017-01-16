@@ -44,11 +44,11 @@
 
 
 $(document).ready(function() {
-  $("#companySize form").submit(function(event) {
-    var ComapanySize = $("select#size").val();
-    if (ComapanySize === small) {
+  $("form #companySize").submit(function(event) {
+    var ComapanySize = $("#size").val();
+    if (ComapanySize === "small") {
       $('#ruby' ).show();
-    };
+    }
 
     // $(".lang").text(langInput);
 
