@@ -48,7 +48,7 @@ $(document).ready(function() {
     var companySize = $("#size").val();
     if (companySize === "small") {
       $("#show").show();
-      $("#ruby").show();
+      $("div#ruby").show();
     }
 
     // $(".lang").text(langInput);

@@ -29,6 +29,7 @@ LAYOUT
 #ruby,
 #java {
   display: none;
+  text-align: center;
 }
 
 body {
