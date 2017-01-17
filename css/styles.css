@@ -40,22 +40,25 @@ body {
   width: 80%;
 }
 
-.btn,
-#blank,
-#size,
-#demand,
-#simple,
-#what {
-  display: block;
+.row {
+  margin-bottom: 2%;
 }
-
-
 
 #column-1,
 #column-2 {
-  width: 40%;
+  width: 45%;
   border: 2px solid red;
+}
 
+.form-group {
+  margin-top: 2%;
+  margin-bottom: 6%;
+  margin-left: 2%;
+}
+
+#name,
+#size {
+  width: 65%;
 }
 
 
