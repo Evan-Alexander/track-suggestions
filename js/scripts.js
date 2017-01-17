@@ -1,35 +1,3 @@
-// var size = (small, medium, large);
-// if (size === small) {
-//   return "#ruby"
-// } else if (size === medium) {
-//   return "#php"
-// } else (size === large) {
-//   return "#php" || "#java"
-// };
-//
-// var demand = (high, no-matter);
-// if (demand === high) {
-//   return "#php" || "#java"
-// } else {
-//   return "ruby"
-// };
-//
-// var simple = (easy, whatever);
-// if (simple === easy) {
-//   return "#ruby"
-// } else {
-//   return "#php" || "#java"
-// };
-//
-// var what = (web-apps, android-apps, software);
-// if (what === web-apps) {
-//   return "#ruby"
-// } else if (what === adnroid-apps) {
-//   return "#java"
-// } else (what === software){
-//   return "#ruby"
-// }
-
 
 $(document).ready(function() {
   $("#blank form").submit(function(event) {
