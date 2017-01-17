@@ -68,6 +68,18 @@ $(document).ready(function() {
   //   event.preventDefault();
   // });
 
+  // $("#blank form").submit(function(event) {
+  //   var simple = $("#simple").val();
+  //   if (simple === "easy") {
+  //     $("div#ruby").show();
+  //   } else if (simple === "whatever") {
+  //     $("div#php").show();
+  //     $("div#java").show();
+  //   }
+  //
+  //   event.preventDefault();
+  // });
+
   $("#blank form").submit(function(event) {
     var simple = $("#simple").val();
     if (simple === "easy") {
