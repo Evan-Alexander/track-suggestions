@@ -18,24 +18,23 @@
         <h3>Answer the questions below so we can offer you a little advice.</h3>
       </div>
       <div class="well">
-        <div id="blank" class="form-group">
+        <div id="blank">
           <form>
-            <label for="name">What's your name?</label>
-            <input id="name" class="form-control" type="text">
+            <div class="form-group">
+              <label for="name">What's your name?</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="size">What size company do you want to work for?</label>
+              <select id="size">
+                <option value="small">Small - I want to work at a start up.  I have big ideas!</option>
+                <option value="medium">Medium - I prefer not too small / not too big.  </option>
+                <option value="large">Corporate - I want job security, a 401K, and I have kids to put through school!</option>
+              </select>
+            </div>
+            <button type="submit" name="button">Submit!</button>
           </form>
-          <button type="submit" name="button">Submit!</button>
         </div>
-        <form id="company-size">
-              <div class="form-group">
-                <label for="size">What size company do you want to work for?</label>
-                <select class="form-control" id="size">
-                  <option value="small">Small - I want to work at a start up.  I have big ideas!</option>
-                  <option value="medium">Medium - I prefer not too small / not too big.  </option>
-                  <option value="large">Corporate - I want job security, a 401K, and I have kids to put through school!</option>
-                </select>
-              </div>
-              <!-- <button type="submit" name="button">Submit!</button> -->
-            </form>
       </div>
       <div id="show" class="well">
         <h4><span class="name"></span>, based on the answers you chose, we think you'd best be suited to learn <span class="lang"></span>.  We hope this helped.  Best of luck to you!</h4>
