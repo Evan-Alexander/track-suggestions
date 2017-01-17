@@ -49,22 +49,15 @@ body {
   display: block;
 }
 
-#blank,
-#size,
-#demand,
-#simple,
-#what {
-  margin-bottom: 1.5em;
-}
 
-#blank,
-#size {
+
+#column-1,
+#column-2 {
   width: 40%;
+  border: 2px solid red;
+
 }
 
-button {
-  align
-}
 
 #show,
 #heading {
