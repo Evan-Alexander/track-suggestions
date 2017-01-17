@@ -9,6 +9,8 @@ Current version as of: 1/13/2016
 
 ## Setup/Installation Requirements
 
+https://evan-alexander.github.io/track-suggestions/
+
 * Copy repository link
 *  - Clone this repository and then open 'index.html' in the browser.
 
