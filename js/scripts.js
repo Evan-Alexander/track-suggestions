@@ -44,7 +44,6 @@ $(document).ready(function() {
   $("#blank form").submit(function(event) {
     var companySize = $("#size").val();
     if (companySize === "small") {
-      // $("#show").show();
       $("div#ruby").show();
     } else if (companySize === "medium") {
       $("div#php").show();
@@ -54,6 +53,21 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+  $("#blank form").submit(function(event) {
+    var demand = $("#demand").val();
+    if (demand === "high") {
+      $("div#php").show();
+      $("div#java").show();
+    } else if (companySize === "no-matter") {
+      $("div#php").show();
+      $("div#java").show();
+      $("div#ruby").show();
+    }
+
+    event.preventDefault();
+  });
+
 });
 
 
