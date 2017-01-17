@@ -40,6 +40,10 @@ body {
   width: 80%;
 }
 
+#questions {
+min-height: 100%;
+}
+
 .row {
   margin-bottom: 2%;
 }
@@ -47,12 +51,11 @@ body {
 #column-1,
 #column-2 {
   width: 45%;
-  border: 2px solid red;
 }
 
 .form-group {
   margin-top: 2%;
-  margin-bottom: 6%;
+  margin-bottom: 5%;
   margin-left: 2%;
 }
 
@@ -60,6 +63,7 @@ body {
 #size {
   width: 65%;
 }
+
 
 
 #show,
