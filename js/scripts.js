@@ -41,20 +41,20 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
-  // $("form#company-size").submit(function(event) {
-  //   var companySize = $("#size").val();
-  //   if (companySize === "small") {
-  //     // $("#show").show();
-  //     $("div#ruby").show();
-  //   } else if (companySize === "medium") {
-  //     $("div#php").show();
-  //   } else if (companySize === "large") {
-  //     $("div#java").show();
-  //   }
-  //
-  //   // $(".lang").text(langInput);
-  //
-  //   event.preventDefault();
+  $("#blank form").submit(function(event) {
+    var companySize = $("#size").val();
+    if (companySize === "small") {
+      // $("#show").show();
+      $("div#ruby").show();
+    } else if (companySize === "medium") {
+      $("div#php").show();
+    } else if (companySize === "large") {
+      $("div#java").show();
+    }
+
+    // $(".lang").text(langInput);
+
+    event.preventDefault();
   });
 });
 
